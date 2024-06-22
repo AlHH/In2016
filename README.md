@@ -1,5 +1,7 @@
-# In2016
+# In 2016
 An online, snapshot-like ‘encyclopedia’ of how it felt to live in Egypt and Tunisia five years after the Arab Spring. The site is the outcome of the research project “In 2016: How it felt to live in the Arab World five years after the ‘Arab Spring’” conducted at the University of Oslo 2015-18.
+
+Like the Arab Spring itself, this site remains a fragment… and it is kept alive by the hope that one day, it may come to fruition!
 
 ## Much has been written about democracy (or the lack of it), political Islam and violence in the Middle East after the ‘Arab Spring’. But how do these aspects relate to the realities of everyday life in the post-revolutionary Arab world?
 
