@@ -1,0 +1,300 @@
+ .bg {
+    /* image for background */
+    background-image: url("egypt-1179191_1920.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .bg1 {
+    /* alternate image for background */
+    background-image: url("toast.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .scrollable-menu {
+    height: auto;
+    max-height: 505px;
+    overflow-x: hidden;
+}
+
+.underlined {
+  color: black;
+  flex: 1;
+  
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background .5s;
+}
+.underlined:hover {
+  background-size: 100% 100%;
+}
+.underlined--thin {
+  background-image: linear-gradient(to right, black 0, black 100%);
+}
+.underlined--thick {
+  background-position: 0 -0.1em;
+}
+.underlined--offset {
+  background-position: 0 0.2em;
+  box-shadow: inset 0 -.5em 0 0 white;
+}
+
+.nounderline {
+  text-decoration: none !important
+}
+
+blockquote { margin: 0 50px; font-size: 14px; text-align: justify; }
+
+.Quote { margin: 0 50px; font-size: 14px; text-align: justify; padding-bottom: 1em;}
+
+.smaller {
+ font-size: smaller;
+}
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
+
+.Hanging {
+  padding-left: 22px ;
+  text-indent: -22px ;
+  text-align: left;
+}
+
+.Subhead {
+ /* Subhead */
+ font-weight: bold ;
+ font-size: inherit ;
+ font-family: Futura;
+}
+
+.Heading_20_5 {
+ /* Subhead */
+ font-weight: bold ;
+ font-size: inherit ;
+ font-family: Futura;
+}
+
+.Subhead2 {
+  /* Subhead2 */
+ font-style: italic ;
+ font-size: inherit ;
+ font-family: Futura;
+}
+
+.Heading_20_6 {
+  /* Subhead2 */
+ font-style: italic ;
+ font-size: inherit ;
+ font-family: Futura;
+}
+
+
+    .T1 { font-style:italic; font-weight:bold; }
+    .T10 { font-style:italic; }
+    .T100 { font-family:Amiri; }
+    .T101 { font-family:Amiri; }
+    .T102 { color:#333333; }
+    .T103 { color:#333333; text-decoration:underline; }
+    .T104 { color:#0070c0; font-weight:bold; }
+    .T105 { color:#0070c0; font-weight:bold; }
+    .T106 { color:#0070c0; }
+    .T107 { color:#666666; font-family:Cambria Math; }
+    .T108 { color:#0070c0; font-family:Arial; font-weight:bold; }
+    .T109 { color:#0070c0; font-family:Arial; font-weight:bold; }
+    .T11 { font-style:italic; }
+    .T110 { color:#0070c0; font-weight:bold; }
+    .T111 { color:#0070c0; font-weight:bold; }
+    .T112 { color:#0070c0; }
+    .T113 { color:#0070c0; font-style:italic; }
+    .T115 { color:#666666; font-family:Cambria Math; }
+    .T116 { color:#666666; font-family:Cambria Math; }
+    .T117 { color:#666666; font-family:Cambria Math; }
+    .T118 { color:#666666; }
+    .T119 { color:#666666; }
+    .T12 { font-style:italic; }
+    .T120 { color:#666666; }
+    .T123 { font-size:11pt; }
+    .T124 { font-size:11pt; font-style:italic; }
+    .T125 { font-size:11pt; }
+    .T128 { font-style:italic; }
+    .T129 { font-style:italic; }
+    .T13 { font-style:italic; }
+    .T130 { font-style:italic; }
+    .T133 { color:#1155cc; text-decoration:underline; }
+    .T134 { color:#1155cc; text-decoration:underline; }
+    .T135 { color:#1155cc; text-decoration:underline; }
+    .T136 { color:#1155cc; text-decoration:underline; }
+    .T137 { color:#1155cc; font-style:italic; text-decoration:underline; }
+    .T138 { color:#1155cc; font-style:italic; text-decoration:underline; }
+    .T139 { color:#1155cc; font-family:Amiri; }
+    .T14 { font-style:italic; }
+    .T140 { color:#1155cc; }
+    .T141 { color:#1155cc; font-style:italic; }
+    .T142 { color:#1155cc; text-decoration:underline; }
+    .T143 { color:#1155cc; font-size:12pt; }
+    .T144 { color:#1155cc; }
+    .T145 { color:#1155cc; }
+    .T146 { color:#1155cc; text-decoration:underline; }
+    .T147 { color:#1155cc; text-decoration:underline; }
+    .T148 { color:#1155cc; text-decoration:underline; }
+    .T15 { font-style:italic; }
+    .T151 { font-style:italic; }
+    .T152 { font-style:italic; }
+    .T155 { font-size:12pt; }
+    .T156 { font-size:12pt; }
+    .T157 { font-size:12pt; font-style:italic; }
+    .T158 { font-size:12pt; font-style:italic; }
+    .T159 { font-size:12pt; font-style:italic; font-weight:bold; }
+    .T16 { font-style:italic; }
+    .T160 { font-size:12pt; font-style:italic; font-weight:bold; }
+    .T161 { font-size:12pt; font-weight:bold; }
+    .T162 { font-size:12pt; font-weight:bold; }
+    .T163 { font-size:12pt; font-weight:bold; }
+    .T164 { font-size:12pt; font-weight:bold; }
+    .T165 { font-size:12pt; font-style:italic; }
+    .T166 { font-size:12pt; }
+    .T168 { font-family:Amiri; }
+    .T169 { font-family:Amiri; }
+    .T17 { font-style:italic; }
+    .T170 { font-family:Amiri; }
+    .T171 { font-family:Amiri; }
+    .T172 { font-family:Amiri; font-style:italic; }
+    .T173 { color:#666666; font-family:Cambria Math; }
+    .T174 { color:#666666; font-family:Cambria Math; }
+    .T18 { font-style:italic; text-decoration:underline; }
+    .T183 { font-style:italic; }
+    .T184 { font-style:italic; }
+    .T185 { font-style:italic; }
+    .T186 { font-style:italic; }
+    .T190 { font-style:italic; }
+    .T191 { font-style:italic; }
+    .T192 { font-style:italic; }
+    .T195 { font-weight:bold; }
+    .T196 { vertical-align:super; font-size:58%;}
+    .T197 { vertical-align:super; font-size:58%;}
+    .T198 { vertical-align:super; font-size:58%;}
+    .T199 { color:#c00000; }
+    .T2 { font-style:italic; font-weight:bold; }
+    .T200 { color:#c00000; }
+    .T201 { color:#c00000; }
+    .T203 { font-style:italic; }
+    .T204 { font-style:italic; }
+    .T205 { font-style:italic; }
+    .T209 { font-style:italic; }
+    .T210 { font-style:italic; }
+    .T211 { font-style:italic; }
+    .T212 { font-style:italic; }
+    .T218 { color:#010101; }
+    .T219 { color:#010101; font-style:italic; }
+    .T22 { color:#666666; font-family:Cambria Math; }
+    .T222 { color:#1d2129; }
+    .T223 { color:#1d2129; font-weight:bold; }
+    .T224 { color:#000000; font-family:Amiri; }
+    .T225 { color:#000000; }
+    .T226 { color:#000000; font-style:italic; }
+    .T227 { color:#000000; font-weight:bold; }
+    .T228 { color:#666666; font-family:Cambria Math; }
+    .T229 { color:#000000; }
+    .T23 { color:#666666; font-family:Cambria Math; }
+    .T230 { color:#000000; font-style:italic; }
+    .T231 { color:#000000; }
+    .T232 { color:#ff0000; }
+    .T233 { color:#ff0000; font-style:italic; }
+    .T234 { color:#ff0000; }
+    .T235 { color:#7f7f7f; font-weight:bold; }
+    .T236 { color:#7f7f7f; font-size:9pt; font-weight:bold; }
+    .T237 { color:#666666; font-family:Cambria Math; }
+    .T238 { color:#7f7f7f; }
+    .T239 { color:#30302f; }
+    .T24 { color:#666666; font-family:Cambria Math; }
+    .T241 { background-color:#fffaa5; }
+    .T243 { font-style:italic; }
+    .T247 { color:#00b050; }
+    .T248 { color:#1e1e1e; }
+    .T249 { color:#1e1e1e; font-style:italic; }
+    .T25 { color:#666666; font-family:Cambria Math; }
+    .T250 { color:#222222; }
+    .T251 { color:#222222; font-style:italic; }
+    .T252 { color:#222222; font-style:italic; }
+    .T253 { color:#666666; font-family:Cambria Math; }
+    .T255 { color:#444444; }
+    .T256 { color:#ffffff; }
+    .T257 { color:#454545; }
+    .T26 { color:#666666; font-family:Cambria Math; }
+    .T27 { color:#666666; font-family:Cambria Math; }
+    .T28 { color:#666666; font-family:Cambria Math; }
+    .T29 { color:#666666; font-family:Cambria Math; }
+    .T3 { font-style:italic; font-weight:bold; }
+    .T30 { color:#666666; font-family:Cambria Math; }
+    .T31 { color:#666666; font-family:Cambria Math; }
+    .T32 { color:#666666; font-family:Cambria Math; }
+    .T33 { color:#666666; font-family:Cambria Math; }
+    .T34 { font-weight:bold; }
+    .T35 { font-weight:bold; }
+    .T36 { font-weight:bold; }
+    .T37 { font-weight:bold; }
+    .T38 { font-weight:bold; }
+    .T39 { font-weight:bold; }
+    .T4 { font-style:italic; font-weight:bold; }
+    .T40 { font-weight:bold; }
+    .T41 { font-variant: small-caps; }
+    .T47 { font-variant: small-caps; }
+    .T5 { font-style:italic; font-weight:bold; }
+    .T52 { font-size:12pt; }
+    .T53 { font-size:12pt; }
+    .T54 { font-size:12pt; }
+    .T57 { font-style:italic; }
+    .T6 { font-style:italic; }
+    .T60 { font-family:Amiri; }
+    .T62 { color:#000000; }
+    .T63 { color:#000000; }
+    .T64 { color:#000000; }
+    .T65 { color:#1155cc; font-variant: small-caps;}
+    .T66 { color:#1155cc; text-decoration:underline; }
+    .T7 { font-style:italic; }
+    .T70 { color:#222222; }
+    .T72 { color:#0070c0; }
+    .T75 { font-style:italic; }
+    .T77 { font-family:Amiri; font-weight:bold; }
+    .T78 { font-family:Amiri; font-weight:bold; }
+    .T79 { font-family:Amiri; font-weight:bold; }
+    .T8 { font-style:italic; }
+    .T80 { font-family:Amiri; font-weight:bold; }
+    .T81 { font-family:Amiri; }
+    .T82 { font-family:Amiri; }
+    .T83 { font-family:Amiri; font-style:italic; font-weight:bold; }
+    .T84 { font-family:Amiri; font-style:italic; font-weight:bold; }
+    .T85 { font-family:Amiri; font-style:italic; }
+    .T86 { font-family:Amiri; font-style:italic; }
+    .T87 { font-family:Amiri; }
+    .T88 { font-family:Amiri; font-weight:bold; }
+    .T89 { font-family:Amiri; font-weight:bold; }
+    .T9 { font-style:italic; }
+    .T90 { font-family:Amiri; }
+    .T91 { font-family:Amiri; font-style:italic; }
+    .T92 { font-family:Amiri; font-style:italic; }
+    .T93 { font-family:Amiri; font-style:italic; }
+    .T94 { font-family:Amiri; }
+    .T95 { font-family:Amiri; font-size:11pt; }
+    .T96 { font-family:Amiri; }
+    .T97 { font-family:Amiri; font-size:12pt; font-weight:bold; }
+    .T98 { font-family:Amiri; font-size:12pt; font-weight:bold; }
+    .T99 { font-family:Amiri; }
+    /* ODF styles with no properties representable as CSS */
+    .ListLabel_20_227 .ListLabel_20_228 .ListLabel_20_229 .ListLabel_20_230 .ListLabel_20_231 .ListLabel_20_232 .ListLabel_20_233 .ListLabel_20_234 .ListLabel_20_235 .ListLabel_20_236 .ListLabel_20_256 .ListLabel_20_257 .ListLabel_20_258 .ListLabel_20_259 .ListLabel_20_261 .ListLabel_20_262 .ListLabel_20_263 .ListLabel_20_267 .ListLabel_20_284 .ListLabel_20_287 .ListLabel_20_289 .ListLabel_20_293 .ListLabel_20_295 .ListLabel_20_298 .ListLabel_20_300 .ListLabel_20_305 .ListLabel_20_306 .ListLabel_20_321 .ListLabel_20_322 .ListLabel_20_323 .ListLabel_20_326 .ListLabel_20_329 .ListLabel_20_330 .ListLabel_20_335 .ListLabel_20_347 .ListLabel_20_352 .ListLabel_20_354 .ListLabel_20_356 .ListLabel_20_360 .ListLabel_20_369 .ListLabel_20_374 .ListLabel_20_375 .ListLabel_20_383 .ListLabel_20_384 .ListLabel_20_385 .ListLabel_20_386 .ListLabel_20_391 .ListLabel_20_393 .T114 .T121 .T122 .T126 .T127 .T131 .T132 .T149 .T150 .T153 .T154 .T167 .T175 .T176 .T177 .T178 .T179 .T180 .T181 .T182 .T187 .T188 .T189 .T19 .T193 .T194 .T20 .T202 .T206 .T207 .T208 .T21 .T213 .T214 .T215 .T216 .T217 .T220 .T242 .T244 .T245 .T246 .T254 .T41 .T42 .T43 .T44 .T45 .T46 .T47 .T48 .T49 .T50 .T51 .T55 .T56 .T58 .T59 .T61 .T67 .T68 .T69 .T71 .T73 .T74 .T76 .apple-tab-span  { }
+        
+@media screen and (max-width:1112px) {
+.hide-this{
+display:none;
+}
+    
